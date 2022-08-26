@@ -29,7 +29,7 @@ const Layout = ({
     <div className="flex flex-col min-h-screen  ">
       <Nav />
       <div className="grow flex flex-col items-center justify-center my-0 mx-auto h-full max-w-screen-xl overflow-hidden">
-        <main className="flex flex-col items-center justify-center flex-grow my-12 max-w-full">
+        <main className="flex flex-col items-center justify-center my-12 max-w-full">
           {children}
         </main>
       </div>

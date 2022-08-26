@@ -29,7 +29,6 @@ const IndexPage = () => (
         >
           TRIBE
         </a>
-        .
       </p>
       <Link href="/about">
         <button className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-4 px-6 rounded-xl">
@@ -46,7 +45,7 @@ const IndexPage = () => (
       <div className="flex flex-row gap-6">
         <Link href="mailto:renzccalangi@gmail.com">
           <a className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-4 px-6 rounded-xl w-40 text-center">
-            <p className="text-base">Say hello! 👋</p>
+            <p className="text-base">Say hi! 👋</p>
           </a>
         </Link>
         <a

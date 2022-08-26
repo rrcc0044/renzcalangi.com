@@ -2,7 +2,7 @@ import { FaPython, FaReact } from 'react-icons/fa';
 import {
   SiAmazonaws,
   SiCypress,
-  SiDjango,
+  SiFastapi,
   SiFlask,
   SiNextdotjs,
   SiPostgresql,
@@ -51,8 +51,8 @@ const AboutPage = () => {
       link: 'https://flask.palletsprojects.com/',
     },
     {
-      icon: SiDjango,
-      link: 'https://www.djangoproject.com/',
+      icon: SiFastapi,
+      link: 'https://fastapi.tiangolo.com/',
     },
     {
       icon: SiPostgresql,
@@ -67,19 +67,92 @@ const AboutPage = () => {
   return (
     <>
       <div>
-        <h1 className="text-4xl font-bold">Technologies I frequently use</h1>
-        <div className="grid grid-cols-6 gap-1 justify-items-center mt-8">
+        <h1 className="text-4xl text-center font-bold">Technologies I use</h1>
+        <div className="grid grid-cols-6 gap-1 justify-items-center mt-8 px-4">
           {technologies.map(({ icon: Icon, link }) => (
             <a
               key={link}
               href={link}
               target="_blank"
               rel="noreferrer"
-              className="w-full h-16 rounded hover:shadow-xl cursor-pointer flex items-center justify-center"
+              className="w-24 h-24 rounded hover:shadow-md cursor-pointer flex items-center justify-center"
             >
               <Icon size={32} />
             </a>
           ))}
+        </div>
+      </div>
+      <div className="mt-20 w-full">
+        <h1 className="text-4xl text-center font-bold">Work Experience</h1>
+        <div className="mt-8">
+          <div className="px-10 py-5 border-b-2 border-gray-100 w-full group flex gap-10 hover:shadow-lg cursor-pointer items-center">
+            <div className="grow max-w-xl">
+              <p>
+                <span className="font-bold text-lg pr-4">TRIBEGROUP</span>
+                <span className="text-sm tracking-wider opacity-80 align-text-bottom">
+                  2019 - Now
+                </span>
+              </p>
+              <p className="opacity-70 pt-4">
+                Built a Marketplace for Creators to showcase their content with
+                React, Typescript and Python.
+              </p>
+            </div>
+            <p className="text-2xl opacity-50 group-hover:opacity-100">
+              &rarr;
+            </p>
+          </div>
+          <div className="px-10 py-5 border-b-2 border-gray-100 w-full group flex gap-10 hover:shadow-lg cursor-pointer items-center">
+            <div className="grow max-w-xl">
+              <p>
+                <span className="font-bold text-lg pr-4">
+                  YOYO Holdings Pte. Ltd.
+                </span>
+                <span className="text-sm tracking-wider opacity-80 align-text-bottom">
+                  2017 - 2018
+                </span>
+              </p>
+              <p className="opacity-70 pt-4">
+                Built the service layer that powers YOYO&apos;s product suite
+                using Python.
+              </p>
+            </div>
+            <p className="text-2xl opacity-50 group-hover:opacity-100">
+              &rarr;
+            </p>
+          </div>
+          <div className="px-10 py-5 border-b-2 border-gray-100 w-full group flex gap-10 hover:shadow-lg cursor-pointer items-center">
+            <div className="grow max-w-xl">
+              <p>
+                <span className="font-bold text-lg pr-4">PawnHero</span>
+                <span className="text-sm tracking-wider opacity-80 align-text-bottom">
+                  2016 - 2017
+                </span>
+              </p>
+              <p className="opacity-70 pt-4">Worked as a PHP Developer.</p>
+            </div>
+            <p className="text-2xl opacity-50 group-hover:opacity-100">
+              &rarr;
+            </p>
+          </div>
+          <div className="px-10 py-5 border-b-2 border-gray-100 w-full group flex gap-10 hover:shadow-lg cursor-pointer items-center">
+            <div className="grow max-w-xl">
+              <p>
+                <span className="font-bold text-lg pr-4">
+                  YOYO Holdings Pte. Ltd.
+                </span>
+                <span className="text-sm tracking-wider opacity-80 align-text-bottom">
+                  2015 - 2016
+                </span>
+              </p>
+              <p className="opacity-70 pt-4">
+                Worked as a Web Developer using Angular and Python.
+              </p>
+            </div>
+            <p className="text-2xl opacity-50 group-hover:opacity-100">
+              &rarr;
+            </p>
+          </div>
         </div>
       </div>
     </>

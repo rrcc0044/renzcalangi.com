@@ -23,7 +23,7 @@ const Footer = () => {
 
   return (
     <footer className="flex flex-col items-center w-full px-5 pt-16 pb-12 ">
-      <div className="grid justify-items-center grid-cols-5 gap-5 py-6">
+      <div className="grid justify-items-center grid-cols-4 gap-5 py-6">
         <Link href="/">
           <a className="font-bold">Home</a>
         </Link>
@@ -32,9 +32,6 @@ const Footer = () => {
         </Link>
         <Link href="/">
           <a className="font-bold">Projects</a>
-        </Link>
-        <Link href="/">
-          <a className="font-bold">Blog</a>
         </Link>
         <Link href="/">
           <a className="font-bold">Contact</a>
