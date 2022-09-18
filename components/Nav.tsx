@@ -9,7 +9,7 @@ const Nav = () => {
         </a>
       </Link>
 
-      <Link href="mailto:renzccalangi@gmail.com">
+      <Link href="mailto:me@renzcalangi.com">
         <a className="font-medium hover:transition-opacity hover:opacity-70">
           Contact
         </a>
