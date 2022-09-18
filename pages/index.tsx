@@ -43,13 +43,13 @@ const IndexPage = () => (
         large projects. Feel free to ask me anything!
       </p>
       <div className="flex flex-row gap-6">
-        <Link href="mailto:renzccalangi@gmail.com">
+        <Link href="mailto:me@renzcalangi.com">
           <a className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-4 px-6 rounded-xl w-40 text-center">
             <p className="text-base">Say hi! 👋</p>
           </a>
         </Link>
         <a
-          href="/assets/resume.pdf"
+          href="/assets/Renz-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download
