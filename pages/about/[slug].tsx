@@ -77,10 +77,10 @@ const About = ({ experience }) => {
                       <h3 className="text-base font-semibold tracking-tight">
                         {project.title}
                       </h3>
-                      <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400 whitespace-pre-wrap">
+                      <p className="relative z-10 mt-2 text-sm text-zinc-600 whitespace-pre-wrap">
                         {project.description}
                       </p>
-                      <p className="relative z-10 mt-2 text-sm text-zinc-900 dark:text-zinc-400">
+                      <p className="relative z-10 mt-2 text-sm text-zinc-600">
                         <span className="font-semibold">Technologies: </span>
                         {project.tech?.map((item, index, { length }) =>
                           length - 1 === index ? `${item}` : `${item}, `,
