@@ -26,8 +26,10 @@ const Layout = ({
       />
     </Head>
 
-    <div className="flex flex-col min-h-screen">
-      <Nav />
+    <div className="flex flex-col min-h-screen items-center justify-center">
+      <div className="w-full max-w-5xl">
+        <Nav />
+      </div>
       <main className="grow flex flex-col items-center justify-center my-12 mx-auto h-full w-full overflow-hidden">
         {children}
       </main>
