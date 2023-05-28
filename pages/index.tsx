@@ -30,11 +30,18 @@ const IndexPage = () => (
           TRIBE
         </a>
       </p>
-      <Link href="/about">
-        <button className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-4 px-6 rounded-xl">
-          <p className="text-base">Details about me &rarr;</p>
-        </button>
-      </Link>
+      <div className="flex flex-row gap-6">
+        <Link href="/projects">
+          <button className="bg-gray-100 hover:bg-gray-200 font-bold py-4 px-6 rounded-xl w-40 text-center">
+            <p className="text-base">Projects 🧑‍🔬</p>
+          </button>
+        </Link>
+        <Link href="/about">
+          <button className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-4 px-6 rounded-xl">
+            <p className="text-base">Details about me &rarr;</p>
+          </button>
+        </Link>
+      </div>
     </div>
     <div className="mt-20 flex flex-col gap-8 items-center max-w-2xl">
       <h1 className="text-4xl font-bold">Contact Me</h1>
