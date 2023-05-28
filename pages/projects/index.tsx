@@ -44,8 +44,8 @@ const ProjectsPage = () => {
                     </a>
                   </h2>
                   <p className="relative z-10 mt-2 text-sm text-zinc-600 ">
-                    The app, for women who love to shop. Exclusive discounts,
-                    promotions & cashback. Be inspired via our
+                    Her Black Book is the go-to shopping platform saving you
+                    time and money.
                   </p>
                   <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 ">
                     <svg
