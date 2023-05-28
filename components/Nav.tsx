@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <div className="flex justify-between py-10 px-10">
+    <div className="w-full flex justify-between py-10 px-10">
       <Link href="/">
         <a className="font-medium hover:transition-opacity hover:opacity-70">
           Renz Calangi
