@@ -104,9 +104,7 @@ const ProjectsPage = () => {
                         fill="currentColor"
                       ></path>
                     </svg>
-                    <span className="ml-2">
-                      theaustralianbucketlist.com.au/
-                    </span>
+                    <span className="ml-2">theaustralianbucketlist.com.au</span>
                   </p>
                 </li>
               </ul>
