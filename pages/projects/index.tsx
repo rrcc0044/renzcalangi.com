@@ -27,25 +27,24 @@ const ProjectsPage = () => {
                       height="32"
                       decoding="async"
                       data-nimg="1"
-                      className="h-8 w-8 rounded-md"
-                      src="/images/hbb-logo.webp"
+                      src="/images/wrapd-logo.png"
                       style={{ color: 'transparent' }}
                     />
                   </div>
                   <h2 className="mt-6 text-base font-semibold text-zinc-800 ">
                     <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100  sm:-inset-x-6 sm:rounded-2xl"></div>
                     <a
-                      href="https://www.herblackbook.com/"
+                      href="https://wrapd.ai/"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
-                      <span className="relative z-10">Her Black Book</span>
+                      <span className="relative z-10">Wrapd</span>
                     </a>
                   </h2>
                   <p className="relative z-10 mt-2 text-sm text-zinc-600 ">
-                    Her Black Book is the go-to shopping platform saving you
-                    time and money.
+                    Wrapd is a premium retail marketing platform that connects
+                    brands with a highly engaged, ready-to-shop audience.
                   </p>
                   <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 ">
                     <svg
@@ -58,7 +57,7 @@ const ProjectsPage = () => {
                         fill="currentColor"
                       ></path>
                     </svg>
-                    <span className="ml-2">herblackbook.com</span>
+                    <span className="ml-2">wrapd.ai</span>
                   </p>
                 </li>
                 <li className="group relative flex flex-col items-start">
