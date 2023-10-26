@@ -4,15 +4,15 @@ const Nav = () => {
   return (
     <div className="w-full flex justify-between py-10 px-10">
       <Link href="/">
-        <a className="font-medium hover:transition-opacity hover:opacity-70">
+        <span className="font-medium hover:transition-opacity hover:opacity-70">
           Renz Calangi
-        </a>
+        </span>
       </Link>
 
       <Link href="mailto:me@renzcalangi.com">
-        <a className="font-medium hover:transition-opacity hover:opacity-70">
+        <span className="font-medium hover:transition-opacity hover:opacity-70">
           Contact
-        </a>
+        </span>
       </Link>
     </div>
   );
