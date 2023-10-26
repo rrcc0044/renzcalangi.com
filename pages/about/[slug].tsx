@@ -44,9 +44,8 @@ const About = ({ experience }) => {
           <div className="relative">
             <div className="w-full relative mt-8 h-48">
               <Image
-                objectFit="cover"
-                layout="fill"
-                className="w-full rounded-md"
+                fill
+                className="w-full rounded-md object-cover"
                 src={data?.banner}
                 alt={data?.company}
               />
