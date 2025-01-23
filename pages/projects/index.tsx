@@ -122,7 +122,7 @@ const ProjectsPage = () => {
                   <h2 className="mt-6 text-base font-semibold text-zinc-800 ">
                     <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100  sm:-inset-x-6 sm:rounded-2xl"></div>
                     <a
-                      href="https://www.theaustralianbucketlist.com.au/"
+                      href="https://www.besso.com"
                       target="_blank"
                       rel="noreferrer"
                     >
