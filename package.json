@@ -11,7 +11,7 @@
     "@next/mdx": "^12.3.0",
     "fast-glob": "^3.2.12",
     "gray-matter": "^4.0.3",
-    "next": "14.2.30",
+    "next": "14.2.32",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
